@@ -19,5 +19,13 @@ export const mock = [{
     "imgUrl":"https://i.scdn.co/image/ab67616d00001e02dd5f9a41327bb2a3af4f1524",
     "mediaFile": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3",
     "likes": 56
+  },{
+    "artista":"Farruko",
+    "cancion": "Pepas",
+    "duracion_segs": 301,
+    "imgUrl":"https://i.scdn.co/image/fftr",
+    "mediaFile": "https://i.scdn.co/song/ff.mp3",
+    "likes": 5
    }];
+
  

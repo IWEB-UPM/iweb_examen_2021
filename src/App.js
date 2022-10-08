@@ -40,7 +40,7 @@ function App() {
       <h1>Lista de Canciones</h1>
       <h2>Mi lista contiene: {myList.length} canciones</h2>
         {songs.map((song, index) => {
-          if(song.likes > 0){
+          if(song.likes > 10){
             let alreadyInMyList = myList.includes(song);
             return (
               <Cancion key={index} index={index} alreadyInMyList={alreadyInMyList} removeFromMyList={removeFromMyList} addToMyList={addToMyList} incrementLikes={incrementLikes} mostrarBoton={mostrarBoton} cancion={song.cancion} artista={song.artista} likes={song.likes} imgUrl={song.imgUrl}/>
